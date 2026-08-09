@@ -1,22 +1,12 @@
-# Versions below marked [tested] were actually installed and exercised in
-# this project's test suite (pytest + integration tests against a real
-# LangGraph StateGraph). Versions marked [untested-pin] are well-established
-# stable releases that were NOT installed in the development sandbox (no
-# network access to huggingface.co there) -- verify them on first real
-# deployment; see DEPLOYMENT.md.
-
+--extra-index-url https://download.pytorch.org/whl/cpu
 streamlit==1.61.1              
-
 langgraph==1.2.10               
 langchain-core==1.5.3            
-
 transformers==4.44.2             
 sentence-transformers==3.0.1      
 torch==2.9.1                     
-
 faiss-cpu==1.15.0                
 rank_bm25==0.2.2                   
-
 scikit-learn==1.8.0                  
 numpy==2.4.4                            
 pandas==2.2.2                            
