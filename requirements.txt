@@ -1,12 +1,12 @@
 --extra-index-url https://download.pytorch.org/whl/cpu
-streamlit==1.61.1              
-langgraph==1.2.10               
-langchain-core==1.5.3            
-transformers==4.44.2             
-sentence-transformers==3.0.1      
-torch==2.9.1                     
-faiss-cpu==1.15.0                
-rank_bm25==0.2.2                   
-scikit-learn==1.8.0                  
-numpy==2.4.4                            
-pandas==2.2.2                            
+streamlit==1.61.1
+langgraph==1.2.10
+langchain-core==1.5.3
+transformers>=4.44.2
+sentence-transformers>=3.0.1
+torch==2.9.1
+faiss-cpu==1.15.0
+rank_bm25==0.2.2
+scikit-learn==1.8.0
+numpy==2.4.4
+pandas==2.2.2
