@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# Model & data caches
+.cache/
+*.pt
+*.pth
+*.bin
+*.safetensors
+data/index/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+
+# Evaluation output (generated, not checked in)
+docs/evaluation_results.json

@@ -1,0 +1,4 @@
+# Streamlit Cloud apt-get system packages.
+# Intentionally empty: faiss-cpu, torch, and transformers all ship prebuilt
+# manylinux wheels, so no system-level build dependencies are required for
+# this project on a standard Streamlit Cloud (Debian) instance.
